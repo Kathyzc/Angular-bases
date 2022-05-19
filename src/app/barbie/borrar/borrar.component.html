@@ -1,0 +1,12 @@
+<h3>Borrar</h3>
+<form (ngSubmit)="borrar()"> 
+   <input 
+      type="text" 
+      placeholder="Nombre"
+      name ="nombre" 
+      [(ngModel)]="antigua.nombre"
+   >
+    <button type="submit">
+        Borrar
+    </button>
+</form>
